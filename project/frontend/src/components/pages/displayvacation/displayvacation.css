@@ -1,0 +1,149 @@
+ * {
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+ }
+
+ .maindisplay-container {
+     border: black solid 2px;
+     border-radius: 20px;
+     margin: 10px;
+ }
+
+
+ /* -------------------------------------------------------- */
+
+ .search-container {
+     margin-top: 20px;
+     text-align: center;
+ }
+
+ .search-container label {
+     font-weight: bold;
+     font-size: x-large;
+     color: blue;
+     margin-right: 10px;
+ }
+
+ .search-container input {
+     padding: 10px 10px;
+     border-radius: 10px;
+     border: black solid 1px;
+     font-weight: bold;
+     text-align: center;
+ }
+
+ /* -------------------------------------------------------- */
+
+ .maindisplay-container .grid-container {
+     margin: 30px 30px;
+     display: grid;
+     gap: 30px;
+     grid-template-columns: auto auto auto auto;
+     padding: 30px 30px;
+     border-radius: 20px;
+
+ }
+
+ .maindisplay-container .grid-container .grid-item {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     border: 1px solid rgba(0, 0, 0, 0.8);
+     border-radius: 20px;
+     padding: 10px;
+     box-shadow: rgb(113, 155, 200) 0px 20px 30px -10px;
+ }
+
+ .maindisplay-container .grid-container .grid-item label {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     color: blue;
+     font-weight: 600;
+ }
+
+ .maindisplay-container .grid-container .grid-item img {
+     margin-top: 5px;
+     height: 150px;
+     width: 200px;
+     display: flex;
+ }
+
+ /* -------------------------------------------------------- */
+
+ .maindisplay-container .header-container {
+     background-color: rgb(103, 199, 200);
+     padding: 30px;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+
+ .maindisplay-container .user {
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-style: italic;
+     font-weight: 500;
+
+ }
+
+ .maindisplay-container .logout {
+     text-decoration: none;
+     color: red;
+     border: 1px solid black;
+     padding: 10px;
+     border-radius: 10px;
+     background-color: rgb(46, 44, 44);
+ }
+
+ .maindisplay-container .option-container {
+     margin-top: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+ }
+
+ .maindisplay-container .option-container button {
+     padding: 2px;
+     border-radius: 5px;
+     margin-left: 5px;
+ }
+
+ .maindisplay-container .add-container {
+     border-top: 2px solid black;
+     border-bottom: 2px solid black;
+     background-color: rgb(103, 199, 200);
+     padding: 10px;
+     display: flex;
+     justify-content: space-around;
+
+ }
+
+ .maindisplay-container .add-container button {
+     padding: 5px 10px;
+     border-radius: 10px;
+     border: 2px solid black;
+     color: black;
+ }
+
+ .maindisplay-container .grid-container .grid-item .follow-container {
+     display: flex;
+     justify-content: center;
+     height: 20px;
+ }
+
+ .maindisplay-container .grid-container .grid-item .follow-container label {
+     color: gold;
+     margin-left: 150px;
+     border: 1px black solid;
+     background-color: black;
+     border-radius: 10px;
+     padding: 15px;
+     font-weight: 600;
+     
+ }

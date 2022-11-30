@@ -1,0 +1,53 @@
+.signup-main-contanier {
+    border: 1px black solid;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 400px;
+    margin-top: 25px;
+    padding: 30px;
+    background-color: rgb(81, 201, 81);
+}
+
+.signup-main-contanier input {
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.signup-main-contanier label {
+    font-weight: bolder;
+    display: flex;
+    align-items: flex-start;
+}
+
+.signup-main-contanier button {
+    padding: 10px 30px;
+    border: solid black 1px;
+    border-radius: 10px;
+    color: blabk;
+    font-weight: bold;
+    background-color: rgb(160, 153, 153);
+}
+
+.signup-main-contanier .link a:hover {
+    color: rgb(175, 63, 63);
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.signup-main-contanier .link .linkto {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size: large;
+}
+
+.link {
+    margin-top: 10px;
+}
